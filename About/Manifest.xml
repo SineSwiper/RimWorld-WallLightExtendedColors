@@ -11,5 +11,4 @@
         <li>WallLight</li>
     </loadAfter>
     <manifestUri>https://rawgit.com/SineSwiper/RimWorld-WallLightExtendedColors/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/SineSwiper/RimWorld-WallLightExtendedColors/releases/latest</downloadUri>
 </Manifest>

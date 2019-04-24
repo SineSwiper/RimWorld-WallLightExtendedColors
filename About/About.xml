@@ -2,8 +2,12 @@
 <ModMetaData>
 	<name>Wall Light - Extended Colors</name>
 	<author>SineSwiper</author>
-	<supportedVersions>
-	  <li>1.0</li>
-	</supportedVersions>
-	<description>Extended colors for the Murmur's Wall Light mod!</description>
+    <url>https://github.com/SineSwiper/RimWorld-WallLightExtendedColors</url>
+    <supportedVersions><li>1.0</li></supportedVersions>
+<description>Extended colors for the Murmur's Wall Light mod!
+
+Secondary colors: Yellow, Magenta, Cyan
+Tertiary colors: Rose, Violet, Azure, Spring Green, Chartreuse, Orange
+
+Requires HugsLib and the Wall Light mod, which should both be loaded first.</description>
 </ModMetaData>
