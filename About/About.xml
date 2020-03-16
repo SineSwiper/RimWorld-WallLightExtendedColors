@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
+	<packageId>SineSwiper.WallLightExtendedColors</packageId>
     <name>Wall Light - Extended Colors</name>
     <author>SineSwiper</author>
     <url>https://github.com/SineSwiper/RimWorld-WallLightExtendedColors</url>
-    <supportedVersions><li>1.0</li></supportedVersions>
+    <supportedVersions>
+        <li>1.0</li>
+        <li>1.1</li>
+    </supportedVersions>
+	<modDependencies>
+		<li>
+            <packageId>UnlimitedHugs.HugsLib</packageId>
+			<displayName>HugsLib</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+			<downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+		</li>
+		<li>
+            <packageId>Murmur.WallLight</packageId>
+			<displayName>Wall Light</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+			<downloadUrl>steam://url/CommunityFilePage/818773962</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+        <li>UnlimitedHugs.HugsLib</li>
+        <li>Murmur.WallLight</li>
+    </loadAfter>
 <description>Extended colors for Murmur's Wall Light mod!
 
 Secondary colors: Yellow, Magenta, Cyan
