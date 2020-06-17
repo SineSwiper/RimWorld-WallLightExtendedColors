@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Colored lights: Secondary -->
+
+  <ThingDef Name="MURWallLightYellowVII" ParentName="MURWallLightVIIBase">
+    <defName>Lighting_MURWallLightYellowVII</defName>
+    <label>UNUSED DO NOT TRANSLATE</label>
+    <description>UNUSED DO NOT TRANSLATE</description>
+    <thingClass>MURWallLight.WallLightYellow</thingClass>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightMagentaVII" ParentName="MURWallLightVIIBase">
+    <defName>Lighting_MURWallLightMagentaVII</defName>
+    <label>UNUSED DO NOT TRANSLATE</label>
+    <description>UNUSED DO NOT TRANSLATE</description>
+    <thingClass>MURWallLight.WallLightMagenta</thingClass>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightCyanVII" ParentName="MURWallLightVIIBase">
+    <defName>Lighting_MURWallLightCyanVII</defName>
+    <label>UNUSED DO NOT TRANSLATE</label>
+    <description>UNUSED DO NOT TRANSLATE</description>
+    <thingClass>MURWallLight.WallLightCyan</thingClass>
+  </ThingDef>
+
+  <!-- Colored lights: Tertiary -->
+
+  <ThingDef Name="MURWallLightRoseVII" ParentName="MURWallLightVIIBase">
+    <defName>Lighting_MURWallLightRoseVII</defName>
+    <label>UNUSED DO NOT TRANSLATE</label>
+    <description>UNUSED DO NOT TRANSLATE</description>
+    <thingClass>MURWallLight.WallLightRose</thingClass>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightVioletVII" ParentName="MURWallLightVIIBase">
+    <defName>Lighting_MURWallLightVioletVII</defName>
+    <label>UNUSED DO NOT TRANSLATE</label>
+    <description>UNUSED DO NOT TRANSLATE</description>
+    <thingClass>MURWallLight.WallLightViolet</thingClass>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightAzureVII" ParentName="MURWallLightVIIBase">
+    <defName>Lighting_MURWallLightAzureVII</defName>
+    <label>UNUSED DO NOT TRANSLATE</label>
+    <description>UNUSED DO NOT TRANSLATE</description>
+    <thingClass>MURWallLight.WallLightAzure</thingClass>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightSpringGreenVII" ParentName="MURWallLightVIIBase">
+    <defName>Lighting_MURWallLightSpringGreenVII</defName>
+    <label>UNUSED DO NOT TRANSLATE</label>
+    <description>UNUSED DO NOT TRANSLATE</description>
+    <thingClass>MURWallLight.WallLightSpringGreen</thingClass>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightChartreuseVII" ParentName="MURWallLightVIIBase">
+    <defName>Lighting_MURWallLightChartreuseVII</defName>
+    <label>UNUSED DO NOT TRANSLATE</label>
+    <description>UNUSED DO NOT TRANSLATE</description>
+    <thingClass>MURWallLight.WallLightChartreuse</thingClass>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightOrangeVII" ParentName="MURWallLightVIIBase">
+    <defName>Lighting_MURWallLightOrangeVII</defName>
+    <label>UNUSED DO NOT TRANSLATE</label>
+    <description>UNUSED DO NOT TRANSLATE</description>
+    <thingClass>MURWallLight.WallLightOrange</thingClass>
+  </ThingDef>
+
+  <!-- Colored glowers: Secondary -->
+
+  <ThingDef Name="MURWallLightVIIGlowerYellow" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_GlowerYellow</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(642,642,0,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightVIIGlowerMagenta" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_GlowerMagenta</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(642,0,642,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightVIIGlowerCyan" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_GlowerCyan</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(0,642,642,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+
+  <!-- Colored glowers: Tertiary -->
+
+  <ThingDef Name="MURWallLightVIIGlowerRose" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_GlowerRose</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(642,0,321,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightVIIGlowerViolet" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_GlowerViolet</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(321,0,642,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightVIIGlowerAzure" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_GlowerAzure</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(0,321,642,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightVIIGlowerSpringGreen" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_GlowerSpringGreen</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(0,642,321,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightVIIGlowerChartreuse" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_GlowerChartreuse</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(321,642,0,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightVIIGlowerOrange" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_GlowerOrange</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(642,321,0,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+
+  <!-- Colored glowers (on): Secondary -->
+
+  <ThingDef Name="MURWallLightYellowOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightYellowVII_On</defName>
+    <graphicData>
+      <texPath>Things/Building/MURWallLight_T</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightMagentaOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightMagentaVII_On</defName>
+    <graphicData>
+      <texPath>Things/Building/MURWallLight_T</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightCyanOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightCyanVII_On</defName>
+    <graphicData>
+      <texPath>Things/Building/MURWallLight_T</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Colored glowers (on): Tertiary -->
+
+  <ThingDef Name="MURWallLightRoseOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightRoseVII_On</defName>
+    <graphicData>
+      <texPath>Things/Building/MURWallLight_T</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightVioletOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightVioletVII_On</defName>
+    <graphicData>
+      <texPath>Things/Building/MURWallLight_T</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightAzureOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightAzureVII_On</defName>
+    <graphicData>
+      <texPath>Things/Building/MURWallLight_T</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightSpringGreenOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightSpringGreenVII_On</defName>
+    <graphicData>
+      <texPath>Things/Building/MURWallLight_T</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightChartreuseOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightChartreuseVII_On</defName>
+    <graphicData>
+      <texPath>Things/Building/MURWallLight_T</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef Name="MURWallLightOrangeOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightOrangeVII_On</defName>
+    <graphicData>
+      <texPath>Things/Building/MURWallLight_T</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+
+</Defs>

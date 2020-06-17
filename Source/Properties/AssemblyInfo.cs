@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("WallLightExtendedColors")]
@@ -7,7 +6,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("WallLightExtendedColors")]
-[assembly: AssemblyCopyright("Copyright © SineSwiper, CC BY-SA 4.0")]
+[assembly: AssemblyCopyright("Copyright © SineSwiper, Artistic 2.0")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
